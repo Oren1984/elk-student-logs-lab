@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Bash script to create a demo Elasticsearch index and generate sample log events
+# Useful for local testing of ELK pipelines and Kibana dashboards
+
 set -euo pipefail
 ES_URL="${ES_URL:-http://localhost:9200}"
 INDEX="${INDEX:-student_logs}"
