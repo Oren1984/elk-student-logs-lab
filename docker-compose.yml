@@ -1,3 +1,6 @@
+# Docker Compose file for running a minimal ELK stack
+# Includes Elasticsearch (single-node) and Kibana for local testing
+
 version: "3.8"
 services:
   elasticsearch:
