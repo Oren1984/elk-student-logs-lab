@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Bash script to continuously stream random log events into Elasticsearch
+# Useful for testing real-time ingestion, dashboards, and monitoring
+
 set -euo pipefail
 ES_URL="${ES_URL:-http://localhost:9200}"
 INDEX="${INDEX:-student_logs}"
